@@ -38,6 +38,7 @@ Environment Variable
 Buat file `.env` pada root folder dengan konfigurasi berikut: 
 
 PORT=3000
+
 MONGODB_URI=mongodb://127.0.0.1:27017/iem_rating_db
 
 
