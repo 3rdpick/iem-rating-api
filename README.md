@@ -47,8 +47,13 @@ Daftar Endpoint
 Base URL: `http://localhost:3000`
 
 | `GET` | `/` | Mengecek status server dan daftar endpoint | - |
+
 | `GET` | `/api/iems` | Mengambil semua data IEM dengan opsi pencarian & filter | Query: `?search=&brand=&signature=&minRating=` |
+
 | `GET` | `/api/iems/:id` | Mengambil detail data IEM berdasarkan ID | Param: `id` (MongoDB ObjectId) |
+
 | `POST` | `/api/iems` | Menambahkan data rating & ulasan IEM baru | Body JSON (`modelName`, `brand`, `driverConfig`, `soundSignature`, `bassRating`, `trebleRating`, `overallRating`, `reviewNotes`) |
+
 | `PUT` | `/api/iems/:id` | Memperbarui data IEM berdasarkan ID | Param: `id`, Body JSON field yang diperbarui |
+
 | `DELETE` | `/api/iems/:id` | Menghapus data IEM berdasarkan ID | Param: `id` |
