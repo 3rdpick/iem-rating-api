@@ -11,7 +11,7 @@ Repository GitHub: https://github.com/3rdpick/iem-rating-api
 Cara Instalasi
 
 1. Clone repository ke komputer lokal:
-git clone [https://github.com/3rdpick/iem-rating-api.git](https://github.com/3rdpick/iem-rating-api.git)
+git clone https://github.com/3rdpick/iem-rating-api.git
 
 2. Masuk ke direktori proyek:
 cd iem-rating-api
@@ -38,7 +38,6 @@ Environment Variable
 Buat file `.env` pada root folder dengan konfigurasi berikut: 
 
 PORT=3000
-
 MONGODB_URI=mongodb://127.0.0.1:27017/iem_rating_db
 
 
