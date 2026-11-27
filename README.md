@@ -1,6 +1,6 @@
 IEM Rating Platform REST API
 
-Layanan backend RESTful API berbasis Node.js, Express.js, dan MongoDB (Mongoose) untuk mengelola data ulasan, rating, pencarian, dan penyaringan In-Ear Monitor (IEM).
+Layanan backend RESTAPI berbasis Node.js, Express.js, dan MongoDB (Mongoose) untuk mengelola data ulasan, rating, pencarian, dan penyaringan In-Ear Monitor (IEM).
 
 Identitas Mentee
 Nama: Yohanes Steven Hasiolan
@@ -38,6 +38,7 @@ Environment Variable
 Buat file `.env` pada root folder dengan konfigurasi berikut: 
 
 PORT=3000
+
 MONGODB_URI=mongodb://127.0.0.1:27017/iem_rating_db
 
 
