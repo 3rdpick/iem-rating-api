@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/iems/REPLACE_WITH_ID
+method: GET
+order: 3000

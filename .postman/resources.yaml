@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 322f6a23-67aa-4d24-87b1-4b2840a87628
+
+localResources:
+  collections:
+    - ../IEM Rating Platform API

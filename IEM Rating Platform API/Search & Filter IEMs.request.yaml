@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/api/iems?search=rockies&minRating=7
+method: GET
+queryParams:
+  search: rockies
+  minRating: "7"
+order: 2000

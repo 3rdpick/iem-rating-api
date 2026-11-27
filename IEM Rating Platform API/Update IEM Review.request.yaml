@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/iems/REPLACE_WITH_ID
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "overallRating": 8.7,
+      "reviewNotes": "Setelah burn-in dan ganti eartips, staging makin rapi."
+    }
+order: 5000

@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/iems
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "modelName": "NiceHCK Rockies",
+      "brand": "NiceHCK",
+      "driverConfig": "1DD + 2BA + 1MicroPlanar",
+      "soundSignature": "Smooth Treble",
+      "bassRating": 8.5,
+      "trebleRating": 8.0,
+      "overallRating": 8.4,
+      "reviewNotes": "Mid-bass terasa berisi dengan treble yang tetap halus."
+    }
+order: 4000
